@@ -13,6 +13,7 @@ function App() {
     <div className="h-96 w-96 bg-white flex justify-center items-center">
       <Tooltip
         ref={tooltipRef}
+        open
         color="accent"
         position="left"
         message='position: "left"'
