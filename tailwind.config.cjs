@@ -6,6 +6,7 @@ module.exports = {
     'node_modules/daisyui/dist/**/*.js',
     'node_modules/react-daisyui/dist/**/*.js',
   ],
+  safelist: ['tooltip-left', 'tooltip-right', 'tooltip-bottom'],
   theme: {
     extend: {},
   },
